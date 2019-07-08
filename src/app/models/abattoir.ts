@@ -15,14 +15,11 @@ export class Abattoir {
     return Abattoir.instance;
   }
 
-  prepareAnimal(dog: Dog): void;
-  prepareAnimal(cat: Cat): void;
-
   prepareAnimal(animal: Dog | Cat): void {
-    if(typeof animal === Dog){
+    if (animal instanceof Dog) {
       animal.clean = true;
     }
-    if(typeof animal === Cat){
+    if (animal instanceof Cat) {
       animal.wet = false;
     }
   }

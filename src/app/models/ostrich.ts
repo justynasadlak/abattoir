@@ -13,7 +13,4 @@ export class Ostrich extends Animal {
     return 'Łiii!!!';
   }
 
-  // getNumberOfLimbs(){
-  //   return this.numberOfLimbs;
-  // }
 }

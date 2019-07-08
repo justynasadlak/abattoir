@@ -1,5 +1,4 @@
 import {Animal} from './animal';
-import {GiveVoice} from '../interfaces/giveVoice';
 
 export class Dog extends Animal {
   clean = false;
@@ -14,7 +13,4 @@ export class Dog extends Animal {
     return 'Hau!!!';
   }
 
-  // getNumberOfLimbs(){
-  //   return this.numberOfLimbs;
-  // }
 }
